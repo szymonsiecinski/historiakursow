@@ -25,6 +25,20 @@ public class Conversion {
         this.amount = amount;
     }
 
+    public Conversion () {
+        this(null, null, 0);
+    }
+
+    public Conversion(Currency sourceCurrency, Currency targetCurrency) {
+        this(sourceCurrency, targetCurrency, 0);
+    }
+
+    public Conversion(Currency sourceCurrency, Currency targetCurrency, double amount) {
+        this.sourceCurrency = sourceCurrency;
+        this.targetCurrency = targetCurrency;
+        this.amount = amount;
+    }
+
     public double perform() throws NonInitializedException {
         if(sourceCurrency == null || targetCurrency == null) {
             throw new NonInitializedException();
