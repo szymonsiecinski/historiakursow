@@ -2,9 +2,9 @@
  * Created by uzytkownik on 09.10.16.
  */
 
-import com.github.szymonsiecinski.historiakursow.Conversion;
-import com.github.szymonsiecinski.historiakursow.Currency;
-import com.github.szymonsiecinski.historiakursow.NonInitializedException;
+import com.github.szymonsiecinski.historiakursow.domain.Conversion;
+import com.github.szymonsiecinski.historiakursow.domain.Currency;
+import com.github.szymonsiecinski.historiakursow.domain.NonInitializedException;
 import static org.junit.Assert.*;
 import org.junit.Test;
 

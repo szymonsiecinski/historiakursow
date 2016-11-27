@@ -1,4 +1,4 @@
-package com.github.szymonsiecinski.historiakursow;
+package com.github.szymonsiecinski.historiakursow.domain;
 
 /**
  * Created by uzytkownik on 27.09.16.
